@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+nav ul li a:hover{
+    color: #666;
+}
+
+.search{
+    position: relative;
+}
+.search input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #444;
+    color: #444;
+}
+.search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #444;
+    font-weight: bold;
+}
+
+.hero{
+    background-color: #ffb6c1;
+    padding: 70px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    color:black;
+    text-align: center;
+}
+.hero p{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+    
+}
+
+.main-content{
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0,2);
+}
+
+.main-content h2{
+    text-align: center;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book h3{
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.book p{
+   margin-top: 0px;
+   color: #666; 
+}
+.but {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color:blue;
+    color: #fff;
+    font-weight: bold;
+  text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.but:hover{
+    background-color: palevioletred;
+}
+.book2 .but{
+    background-color:peru;
+}
+
+
+footer{
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

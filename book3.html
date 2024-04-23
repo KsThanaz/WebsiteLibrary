@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book3</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+             background-color: paleturquoise;
+             margin: 0;
+            padding: 0;
+        }
+        .container {
+        max-width: 400px;
+        margin: 80px auto;
+        background: #fff;
+         padding: 40px;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    .img1{
+            /* align-items: center;
+            justify-content: center; */
+            text-align: center;
+         }
+
+         p{
+            font-size: 19px;
+            font-family:'Times New Roman', Times, serif ;
+         }
+         .books{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book h3{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.book p{
+   margin-top: 0px;
+   color: #666; 
+}
+.but {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color:blue;
+    color: #fff;
+    font-weight: bold;
+  text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.but:hover{
+    background-color: palevioletred;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1><center>READ PEOPLE LIKE A BOOK</center></h1>
+    <div class="img1"><img src="book3.jpg" alt="ReadPeopleLikeABook"></div>
+    <p>Read People Like a Book by Patrick King offers practical techniques for understanding and interpreting human behavior.<br> It teaches readers how to analyze body language, decipher emotions, and improve communication skills.</p>
+</div>
+<h2>Also Read</h2>
+<div class="main-content">
+    <div class="books">
+      <div class="book">
+        <img src="4.jpg">
+        <h3>Game Of Thrones</h3>
+        <p>Patrick King</p>
+        <a href="" class="but">Read</a>
+      </div>
+      <div class="book">
+        <img src="5.jpg">
+        <h3> A Court Of Mist Fury</h3>
+        <p>Patrick King</p>
+        <a href="" class="but">Read</a>
+      </div>
+      
+      <div class="book">
+        <img src="6.jpg">
+        <h3>Read People Like A Book</h3>
+        <p>Patrick King</p>
+        <a href="" class="but">Read</a>
+        </div>
+    
+    </div>
+</body>
+</html>
